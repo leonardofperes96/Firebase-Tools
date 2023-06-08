@@ -13,6 +13,9 @@ Aplicação utilizando alguns recursos disponíveis do Firebase para auxiliar na
 
 git clone git@github.com:leonardofperes96/Firebase-Tools.git
 
+### Entre no diretório do projeto
+cd auth
+
 ### Instale as dependencias
 
 npm install
