@@ -1,0 +1,54 @@
+:root {
+  --primary-color: #e8f0ff;
+  --secondary-color: #6874e8;
+  --terciary-color: #d5cfe1;
+}
+body {
+  background: var(--secondary-color);
+}
+
+.main-btn {
+  border: none;
+  background: none;
+  color: blue;
+}
+
+.main-btn:hover {
+  color: cornflowerblue;
+}
+
+.submit-btn {
+  width: 100%;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.loading {
+  width: 6rem;
+  height: 6rem;
+  border: 5px solid white;
+  border-radius: 50%;
+  border-top-color: gray;
+  animation: spinner 2s linear infinite;
+}
+.loading-center {
+  margin: 10% auto;
+}
+
+.center-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 10%;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
